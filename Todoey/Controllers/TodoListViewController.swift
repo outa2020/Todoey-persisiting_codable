@@ -181,7 +181,7 @@ extension TodoListViewController : UISearchBarDelegate {
         
         let sortDescriptr = NSSortDescriptor(key: "title", ascending: true)
         request.sortDescriptors = [sortDescriptr]
-        
+
         loadItems(With : request, predicate: predicate)
     }
     
@@ -191,17 +191,16 @@ extension TodoListViewController : UISearchBarDelegate {
             
             DispatchQueue.main.async {  
                 searchBar.resignFirstResponder()
+                
+                
+                
+                
+            
             }
             
         }
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        //
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        //
-    }
+
     
 }
