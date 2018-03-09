@@ -196,12 +196,6 @@ extension TodoListViewController : UISearchBarDelegate {
         }
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        //
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        //
-    }
+
     
 }
